@@ -9,25 +9,23 @@ Empirical Study of Enum Usage in Programming Languages - Experiment Package
  ->my-experiment/<br/>
  -->tasks/<br/>
  ---->group-e/<br/>
-      -task1.sh<br/>
-      -task2.sh<br/>
-      -task3.sh<br/>
+ --------task1.sh<br/>
+ --------task2.sh<br/>
+ --------task3.sh<br/>
  ---->group-ne/<br/>
-      -task1.sh<br/>
-      -task2.sh<br/>
-      -task3.sh<br/>
+ --------task1.sh<br/>
+ --------task2.sh<br/>
+ --------task3.sh<br/>
 
 6. To run test solutions, execute these scripts:<br/>
   ->my-experiment/<br/>
-  -->scripts/<br/>
-      -eclipse.sh<br/>
   -->solutions/<br/>
   ---->group-e/<br/>
-        -task1.sh<br/>
-        -task2.sh<br/>
-        -task3.sh<br/>
+  --------task1.sh<br/>
+  --------task2.sh<br/>
+  --------task3.sh<br/>
   ---->group-ne/<br/>
-        -task1.sh<br/>
-        -task2.sh<br/>
-        -task3.sh<br/>
+  --------task1.sh<br/>
+  --------task2.sh<br/>
+  --------task3.sh<br/>
 
