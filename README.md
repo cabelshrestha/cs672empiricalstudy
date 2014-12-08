@@ -28,7 +28,7 @@ Empirical Study of Enum Usage in Programming Languages - Experiment Package
   --------task1.sh<br/>
   --------task2.sh<br/>
   --------task3.sh<br/>
-
-NOTE: 
-'group-e' is the enum control group
-'group-ne' is the constants control group
+<br/>
+NOTE: <br/>
+'group-e' is the enum control group<br/>
+'group-ne' is the constants control group<br/>
