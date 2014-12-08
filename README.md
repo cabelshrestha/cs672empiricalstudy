@@ -1,4 +1,4 @@
-Empirical Study of Enum Usage in Programming Languages
+Empirical Study of Enum Usage in Programming Languages - Experiment Package
 ===================
 
 1. To run the tests, place 'my-experiment' folder in the /home folder of your Ubuntu computer.
