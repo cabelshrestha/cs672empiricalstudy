@@ -4,23 +4,22 @@ import cs.unlv.edu.common.Utils;
 
 public class Sample2 {
 
-    public enum Switch {
-        OFF, ON;
-    }
+    public static final int OFF = 0;
+    public static final int ON = 1;
 
     /*
      * Similar type of switch usage might be useful for the tasks.
      */
-    public String turnSwitch(Switch action) {
+    public String turnSwitch(int action) {
 
         String result = "";
 
         switch (action) {
-            case OFF:
-                result = "Switch turned off";
-                break;
             case ON:
                 result = "Switch turned on";
+                break;
+            case OFF:
+                result = "Switch turned off";
                 break;
             }
 
@@ -28,10 +27,10 @@ public class Sample2 {
     }
 
     public static void main(String[] args) {
-        
+
         Sample2 obj = new Sample2();
 
-        Utils.print(obj.turnSwitch(Switch.OFF));
-        Utils.print(obj.turnSwitch(Switch.ON));
+        Utils.print(obj.turnSwitch(Sample2.OFF));
+        Utils.print(obj.turnSwitch(Sample2.ON));
     }
 }
